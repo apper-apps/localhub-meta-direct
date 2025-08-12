@@ -61,8 +61,56 @@ const businessService = {
   async searchByCategory(category) {
     await delay(300);
     return businesses
-      .filter(b => b.category === category)
-      .map(b => ({ ...b }));
+.filter(b => b.category === category)
+     .map(b => ({ ...b }));
+  },
+
+  async addReview(businessId, reviewData) {
+    await delay(500);
+    const business = businesses.find(b => b.Id === parseInt(businessId));
+    if (!business) {
+      throw new Error("Business not found");
+    }
+    if (!business.reviews) {
+      business.reviews = [];
+    }
+    const newReview = {
+      id: Date.now(),
+      ...reviewData,
+      date: new Date().toISOString()
+    };
+    business.reviews.push(newReview);
+    return newReview;
+  },
+
+  async createBooking(businessId, bookingData) {
+    await delay(500);
+    const business = businesses.find(b => b.Id === parseInt(businessId));
+    if (!business) {
+      throw new Error("Business not found");
+    }
+    if (!business.bookings) {
+      business.bookings = [];
+    }
+    const newBooking = {
+      id: Date.now(),
+      businessId: parseInt(businessId),
+      ...bookingData,
+      status: 'confirmed',
+      createdAt: new Date().toISOString()
+    };
+    business.bookings.push(newBooking);
+    return newBooking;
+  },
+
+  async toggleBookmark(businessId) {
+    await delay(300);
+    const business = businesses.find(b => b.Id === parseInt(businessId));
+    if (!business) {
+      throw new Error("Business not found");
+    }
+business.bookmarked = !business.bookmarked;
+    return { bookmarked: business.bookmarked };
   }
 };
 

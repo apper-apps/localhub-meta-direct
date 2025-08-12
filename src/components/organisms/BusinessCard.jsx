@@ -1,9 +1,16 @@
+import { useNavigate } from "react-router-dom";
+import React from "react";
 import ApperIcon from "@/components/ApperIcon";
-import Card from "@/components/atoms/Card";
-import Badge from "@/components/atoms/Badge";
 import Button from "@/components/atoms/Button";
-
+import Badge from "@/components/atoms/Badge";
+import Card from "@/components/atoms/Card";
 const BusinessCard = ({ business }) => {
+  const navigate = useNavigate();
+
+  const handleViewDetails = () => {
+    navigate(`/business/${business.Id}`);
+  };
+
   return (
     <Card className="p-6 hover:shadow-card-hover transition-all duration-200">
       <div className="flex items-start justify-between mb-4">
@@ -44,9 +51,9 @@ const BusinessCard = ({ business }) => {
       </div>
 
       <div className="flex items-center gap-2 mt-4">
-        <Button size="sm" className="gap-2">
+        <Button size="sm" onClick={handleViewDetails} className="gap-2">
           <ApperIcon name="ExternalLink" className="h-4 w-4" />
-          Visit
+          View Details
         </Button>
         <Button variant="outline" size="sm" className="gap-2">
           <ApperIcon name="Bookmark" className="h-4 w-4" />

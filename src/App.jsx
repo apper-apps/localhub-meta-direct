@@ -5,6 +5,7 @@ import Header from "@/components/organisms/Header";
 import FilterSidebar from "@/components/organisms/FilterSidebar";
 import QAFeed from "@/components/pages/QAFeed";
 import BusinessDirectory from "@/components/pages/BusinessDirectory";
+import BusinessListingPage from "@/components/pages/BusinessListingPage";
 import EventMarketplace from "@/components/pages/EventMarketplace";
 import JobsPage from "@/components/pages/JobsPage";
 import RealEstatePage from "@/components/pages/RealEstatePage";
@@ -94,8 +95,9 @@ const [filters, setFilters] = useState({});
           onSearch={handleSearch}
         />
 
-        <Routes>
-<Route path="/*" element={
+<Routes>
+          <Route path="/business/:id" element={<BusinessListingPage />} />
+          <Route path="/*" element={
             <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
               <div className="flex gap-6">
                 {/* Profile Sidebar */}
