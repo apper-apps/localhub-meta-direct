@@ -1,0 +1,66 @@
+[
+  {
+    "Id": 1,
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "USA",
+    "coordinates": { "lat": 37.7749, "lng": -122.4194 },
+    "address": ""
+  },
+  {
+    "Id": 2,
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "coordinates": { "lat": 40.7128, "lng": -74.0060 },
+    "address": ""
+  },
+  {
+    "Id": 3,
+    "city": "Los Angeles",
+    "state": "CA",
+    "country": "USA",
+    "coordinates": { "lat": 34.0522, "lng": -118.2437 },
+    "address": ""
+  },
+  {
+    "Id": 4,
+    "city": "Chicago",
+    "state": "IL",
+    "country": "USA",
+    "coordinates": { "lat": 41.8781, "lng": -87.6298 },
+    "address": ""
+  },
+  {
+    "Id": 5,
+    "city": "Austin",
+    "state": "TX",
+    "country": "USA",
+    "coordinates": { "lat": 30.2672, "lng": -97.7431 },
+    "address": ""
+  },
+  {
+    "Id": 6,
+    "city": "Seattle",
+    "state": "WA",
+    "country": "USA",
+    "coordinates": { "lat": 47.6062, "lng": -122.3321 },
+    "address": ""
+  },
+  {
+    "Id": 7,
+    "city": "Denver",
+    "state": "CO",
+    "country": "USA",
+    "coordinates": { "lat": 39.7392, "lng": -104.9903 },
+    "address": ""
+  },
+  {
+    "Id": 8,
+    "city": "Miami",
+    "state": "FL",
+    "country": "USA",
+    "coordinates": { "lat": 25.7617, "lng": -80.1918 },
+    "address": ""
+  }
+]

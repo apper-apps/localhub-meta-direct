@@ -1,0 +1,122 @@
+[
+  {
+    "Id": 1,
+    "name": "Blue Bottle Coffee",
+    "category": "Restaurant",
+    "description": "Specialty coffee roaster serving artisanal single-origin coffee and light meals in a minimalist setting.",
+    "location": {
+      "city": "San Francisco",
+      "state": "CA",
+      "country": "USA",
+      "coordinates": { "lat": 37.7849, "lng": -122.4094 },
+      "address": "315 Linden St, San Francisco, CA 94102"
+    },
+    "contact": {
+      "phone": "(415) 555-0101",
+      "email": "info@bluebottlecoffee.com",
+      "website": "https://bluebottlecoffee.com"
+    },
+    "hours": "Mon-Fri 6:30AM-7PM, Sat-Sun 7AM-7PM",
+    "createdAt": "2024-01-01T10:00:00Z"
+  },
+  {
+    "Id": 2,
+    "name": "Martinez Plumbing Services",
+    "category": "Service",
+    "description": "Professional plumbing services with over 15 years of experience. Specializing in residential repairs and installations.",
+    "location": {
+      "city": "San Francisco",
+      "state": "CA",
+      "country": "USA",
+      "coordinates": { "lat": 37.7649, "lng": -122.4194 },
+      "address": "1234 Mission St, San Francisco, CA 94103"
+    },
+    "contact": {
+      "phone": "(415) 555-0123",
+      "email": "contact@martinezplumbing.com",
+      "website": "https://martinezplumbing.com"
+    },
+    "hours": "Mon-Fri 8AM-6PM, Emergency service available",
+    "createdAt": "2024-01-02T10:00:00Z"
+  },
+  {
+    "Id": 3,
+    "name": "Green Valley Organic Market",
+    "category": "Retail",
+    "description": "Local organic grocery store featuring fresh produce from local farms, natural products, and artisanal goods.",
+    "location": {
+      "city": "San Francisco",
+      "state": "CA",
+      "country": "USA",
+      "coordinates": { "lat": 37.7549, "lng": -122.4294 },
+      "address": "789 Valencia St, San Francisco, CA 94110"
+    },
+    "contact": {
+      "phone": "(415) 555-0156",
+      "email": "hello@greenvalleyorganic.com",
+      "website": "https://greenvalleyorganic.com"
+    },
+    "hours": "Daily 8AM-9PM",
+    "createdAt": "2024-01-03T10:00:00Z"
+  },
+  {
+    "Id": 4,
+    "name": "Sunset Yoga Studio",
+    "category": "Healthcare",
+    "description": "Peaceful yoga studio offering classes for all levels, meditation sessions, and wellness workshops.",
+    "location": {
+      "city": "Los Angeles",
+      "state": "CA",
+      "country": "USA",
+      "coordinates": { "lat": 34.0622, "lng": -118.2537 },
+      "address": "456 Sunset Blvd, Los Angeles, CA 90026"
+    },
+    "contact": {
+      "phone": "(323) 555-0189",
+      "email": "info@sunsetyoga.com",
+      "website": "https://sunsetyoga.com"
+    },
+    "hours": "Mon-Fri 6AM-9PM, Sat-Sun 8AM-7PM",
+    "createdAt": "2024-01-04T10:00:00Z"
+  },
+  {
+    "Id": 5,
+    "name": "Mountain Gear Outfitters",
+    "category": "Retail",
+    "description": "Complete outdoor gear store with equipment for hiking, camping, climbing, and all mountain adventures.",
+    "location": {
+      "city": "Denver",
+      "state": "CO",
+      "country": "USA",
+      "coordinates": { "lat": 39.7492, "lng": -104.9803 },
+      "address": "123 16th St, Denver, CO 80202"
+    },
+    "contact": {
+      "phone": "(303) 555-0245",
+      "email": "gear@mountainoutfitters.com",
+      "website": "https://mountainoutfitters.com"
+    },
+    "hours": "Mon-Sat 9AM-8PM, Sun 10AM-6PM",
+    "createdAt": "2024-01-05T10:00:00Z"
+  },
+  {
+    "Id": 6,
+    "name": "Austin Auto Repair",
+    "category": "Automotive",
+    "description": "Full-service auto repair shop with certified mechanics. Specializing in both foreign and domestic vehicles.",
+    "location": {
+      "city": "Austin",
+      "state": "TX",
+      "country": "USA",
+      "coordinates": { "lat": 30.2772, "lng": -97.7531 },
+      "address": "567 South Lamar Blvd, Austin, TX 78704"
+    },
+    "contact": {
+      "phone": "(512) 555-0367",
+      "email": "service@austinautorepair.com",
+      "website": "https://austinautorepair.com"
+    },
+    "hours": "Mon-Fri 7:30AM-6PM, Sat 8AM-4PM",
+    "createdAt": "2024-01-06T10:00:00Z"
+  }
+]

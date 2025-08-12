@@ -1,0 +1,110 @@
+[
+  {
+    "Id": 1,
+    "title": "Best coffee shops in downtown?",
+    "description": "Looking for a cozy place to work with good WiFi and excellent coffee. Any recommendations in the downtown area?",
+    "category": "Recommendations",
+    "location": {
+      "city": "San Francisco",
+      "state": "CA",
+      "country": "USA",
+      "coordinates": { "lat": 37.7749, "lng": -122.4194 },
+      "address": ""
+    },
+    "userId": "user1",
+    "votes": 15,
+    "answerCount": 8,
+    "createdAt": "2024-01-15T10:30:00Z",
+    "tags": ["coffee", "downtown", "wifi", "work"]
+  },
+  {
+    "Id": 2,
+    "title": "Is the farmers market still happening on Saturdays?",
+    "description": "I heard there was a farmers market every Saturday in the town square. Is this still happening? What time does it start?",
+    "category": "Events",
+    "location": {
+      "city": "San Francisco",
+      "state": "CA",
+      "country": "USA",
+      "coordinates": { "lat": 37.7749, "lng": -122.4194 },
+      "address": ""
+    },
+    "userId": "user2",
+    "votes": 12,
+    "answerCount": 5,
+    "createdAt": "2024-01-14T14:22:00Z",
+    "tags": ["farmers-market", "saturday", "events"]
+  },
+  {
+    "Id": 3,
+    "title": "Looking for a reliable plumber",
+    "description": "Need someone to fix a leaky faucet and check some pipes. Anyone have recommendations for honest, reasonably priced plumbers in the area?",
+    "category": "Help",
+    "location": {
+      "city": "San Francisco",
+      "state": "CA",
+      "country": "USA",
+      "coordinates": { "lat": 37.7749, "lng": -122.4194 },
+      "address": ""
+    },
+    "userId": "user3",
+    "votes": 8,
+    "answerCount": 12,
+    "createdAt": "2024-01-13T09:45:00Z",
+    "tags": ["plumber", "repair", "recommendation"]
+  },
+  {
+    "Id": 4,
+    "title": "New restaurant opening on Main Street",
+    "description": "Saw construction wrapping up at the old bakery location. Anyone know what type of restaurant is going in there? Looks like it might be Italian?",
+    "category": "Local News",
+    "location": {
+      "city": "Los Angeles",
+      "state": "CA",
+      "country": "USA",
+      "coordinates": { "lat": 34.0522, "lng": -118.2437 },
+      "address": ""
+    },
+    "userId": "user4",
+    "votes": 22,
+    "answerCount": 6,
+    "createdAt": "2024-01-12T16:18:00Z",
+    "tags": ["restaurant", "main-street", "new-business"]
+  },
+  {
+    "Id": 5,
+    "title": "Best hiking trails for beginners?",
+    "description": "Just moved to the area and want to start hiking. What are some good beginner-friendly trails with nice views? Not looking for anything too strenuous.",
+    "category": "Recommendations",
+    "location": {
+      "city": "Denver",
+      "state": "CO",
+      "country": "USA",
+      "coordinates": { "lat": 39.7392, "lng": -104.9903 },
+      "address": ""
+    },
+    "userId": "user5",
+    "votes": 18,
+    "answerCount": 14,
+    "createdAt": "2024-01-11T11:30:00Z",
+    "tags": ["hiking", "trails", "beginner", "outdoor"]
+  },
+  {
+    "Id": 6,
+    "title": "Power outage in Oak Hill neighborhood?",
+    "description": "Anyone else experiencing power outages in Oak Hill? Been out for about an hour now. Wondering if it's widespread or just my block.",
+    "category": "General",
+    "location": {
+      "city": "Austin",
+      "state": "TX",
+      "country": "USA",
+      "coordinates": { "lat": 30.2672, "lng": -97.7431 },
+      "address": ""
+    },
+    "userId": "user6",
+    "votes": 5,
+    "answerCount": 3,
+    "createdAt": "2024-01-10T20:15:00Z",
+    "tags": ["power-outage", "oak-hill", "utilities"]
+  }
+]

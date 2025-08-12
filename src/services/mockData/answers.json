@@ -1,0 +1,101 @@
+[
+  {
+    "Id": 1,
+    "questionId": 1,
+    "content": "I highly recommend Blue Bottle Coffee on Market Street. Great atmosphere, reliable WiFi, and their single-origin pour-overs are excellent. Usually not too crowded during weekday mornings.",
+    "userId": "user10",
+    "votes": 8,
+    "createdAt": "2024-01-15T11:15:00Z",
+    "isAccepted": true
+  },
+  {
+    "Id": 2,
+    "questionId": 1,
+    "content": "Philz Coffee is another great option! They have multiple locations downtown and the custom blends are amazing. The one on Folsom has plenty of seating and good WiFi.",
+    "userId": "user11",
+    "votes": 6,
+    "createdAt": "2024-01-15T12:30:00Z",
+    "isAccepted": false
+  },
+  {
+    "Id": 3,
+    "questionId": 1,
+    "content": "Try Sightglass Coffee if you want something a bit more upscale. Their espresso is top-notch and the space is perfect for getting work done.",
+    "userId": "user12",
+    "votes": 4,
+    "createdAt": "2024-01-15T13:45:00Z",
+    "isAccepted": false
+  },
+  {
+    "Id": 4,
+    "questionId": 2,
+    "content": "Yes! The farmers market is still happening every Saturday from 8 AM to 2 PM in the town square. They have a great selection of local produce and artisanal goods.",
+    "userId": "user13",
+    "votes": 10,
+    "createdAt": "2024-01-14T15:00:00Z",
+    "isAccepted": true
+  },
+  {
+    "Id": 5,
+    "questionId": 2,
+    "content": "I was there last Saturday and it was packed! Get there early for the best selection. The Baker's Dozen booth usually sells out of their sourdough by 11 AM.",
+    "userId": "user14",
+    "votes": 7,
+    "createdAt": "2024-01-14T16:20:00Z",
+    "isAccepted": false
+  },
+  {
+    "Id": 6,
+    "questionId": 3,
+    "content": "I used Martinez Plumbing last month and they were fantastic. Fair prices, showed up on time, and explained everything they were doing. Highly recommend! Their number is (415) 555-0123.",
+    "userId": "user15",
+    "votes": 12,
+    "createdAt": "2024-01-13T10:30:00Z",
+    "isAccepted": true
+  },
+  {
+    "Id": 7,
+    "questionId": 3,
+    "content": "Try Bay Area Home Services. They fixed my kitchen sink last year and did great work. A bit pricier but very thorough and professional.",
+    "userId": "user16",
+    "votes": 5,
+    "createdAt": "2024-01-13T14:15:00Z",
+    "isAccepted": false
+  },
+  {
+    "Id": 8,
+    "questionId": 4,
+    "content": "It's going to be Nonna's Kitchen - an authentic Italian restaurant! The owner used to work at Chez Panisse. They're aiming to open next month. Can't wait!",
+    "userId": "user17",
+    "votes": 15,
+    "createdAt": "2024-01-12T17:45:00Z",
+    "isAccepted": true
+  },
+  {
+    "Id": 9,
+    "questionId": 5,
+    "content": "Start with the Bear Creek Trail - it's only 3 miles roundtrip with beautiful lake views. Very well-maintained and not too steep. Perfect for beginners!",
+    "userId": "user18",
+    "votes": 11,
+    "createdAt": "2024-01-11T12:15:00Z",
+    "isAccepted": true
+  },
+  {
+    "Id": 10,
+    "questionId": 5,
+    "content": "I'd also recommend the Meadow Loop Trail. It's flat, easy, and you might see some wildlife. Great for building up your hiking confidence.",
+    "userId": "user19",
+    "votes": 8,
+    "createdAt": "2024-01-11T13:30:00Z",
+    "isAccepted": false
+  },
+  {
+    "Id": 11,
+    "questionId": 6,
+    "content": "Same here! Power's been out since around 7 PM. I called the utility company and they said they're working on it. Estimated restoration time is 11 PM.",
+    "userId": "user20",
+    "votes": 3,
+    "createdAt": "2024-01-10T20:45:00Z",
+    "isAccepted": false
+  }
+]

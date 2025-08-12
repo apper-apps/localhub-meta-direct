@@ -1,0 +1,104 @@
+[
+  {
+    "Id": 1,
+    "title": "Downtown Farmers Market",
+    "description": "Weekly farmers market featuring local produce, artisanal foods, live music, and community vendors. Come support local farmers and enjoy fresh, seasonal ingredients.",
+    "date": "2024-02-03T08:00:00Z",
+    "location": {
+      "city": "San Francisco",
+      "state": "CA",
+      "country": "USA",
+      "coordinates": { "lat": 37.7749, "lng": -122.4194 },
+      "address": "Town Square, 100 Main St, San Francisco, CA 94102"
+    },
+    "category": "Community",
+    "price": 0,
+    "organizerId": "org1",
+    "createdAt": "2024-01-15T10:00:00Z"
+  },
+  {
+    "Id": 2,
+    "title": "Jazz Night at Blue Moon Café",
+    "description": "Join us for an intimate evening of live jazz featuring the Marcus Williams Trio. Enjoy craft cocktails and small plates while listening to smooth jazz in our cozy atmosphere.",
+    "date": "2024-02-10T19:30:00Z",
+    "location": {
+      "city": "San Francisco",
+      "state": "CA",
+      "country": "USA",
+      "coordinates": { "lat": 37.7649, "lng": -122.4094 },
+      "address": "456 Mission St, San Francisco, CA 94105"
+    },
+    "category": "Music",
+    "price": 25,
+    "organizerId": "org2",
+    "createdAt": "2024-01-14T10:00:00Z"
+  },
+  {
+    "Id": 3,
+    "title": "Community Yoga in the Park",
+    "description": "Free outdoor yoga session suitable for all levels. Bring your own mat and join us for a peaceful morning practice surrounded by nature.",
+    "date": "2024-02-05T09:00:00Z",
+    "location": {
+      "city": "Los Angeles",
+      "state": "CA",
+      "country": "USA",
+      "coordinates": { "lat": 34.0622, "lng": -118.2437 },
+      "address": "Griffith Park, Los Angeles, CA 90027"
+    },
+    "category": "Community",
+    "price": 0,
+    "organizerId": "org3",
+    "createdAt": "2024-01-13T10:00:00Z"
+  },
+  {
+    "Id": 4,
+    "title": "Local Business Networking Mixer",
+    "description": "Monthly networking event for local entrepreneurs and business owners. Connect with fellow professionals, share ideas, and build meaningful business relationships.",
+    "date": "2024-02-15T18:00:00Z",
+    "location": {
+      "city": "Austin",
+      "state": "TX",
+      "country": "USA",
+      "coordinates": { "lat": 30.2672, "lng": -97.7431 },
+      "address": "The Modern Hotel, 200 E Cesar Chavez St, Austin, TX 78701"
+    },
+    "category": "Business",
+    "price": 15,
+    "organizerId": "org4",
+    "createdAt": "2024-01-12T10:00:00Z"
+  },
+  {
+    "Id": 5,
+    "title": "Mountain Photography Workshop",
+    "description": "Learn landscape photography techniques in the beautiful Rocky Mountains. All skill levels welcome. Equipment provided or bring your own camera.",
+    "date": "2024-02-18T08:00:00Z",
+    "location": {
+      "city": "Denver",
+      "state": "CO",
+      "country": "USA",
+      "coordinates": { "lat": 39.7392, "lng": -104.9903 },
+      "address": "Rocky Mountain National Park Visitor Center, Estes Park, CO 80517"
+    },
+    "category": "Arts",
+    "price": 75,
+    "organizerId": "org5",
+    "createdAt": "2024-01-11T10:00:00Z"
+  },
+  {
+    "Id": 6,
+    "title": "Food Truck Festival",
+    "description": "Annual food truck festival featuring over 30 local vendors, live music, and family-friendly activities. Come hungry and discover new flavors from our local food scene.",
+    "date": "2024-02-24T11:00:00Z",
+    "location": {
+      "city": "Miami",
+      "state": "FL",
+      "country": "USA",
+      "coordinates": { "lat": 25.7617, "lng": -80.1918 },
+      "address": "Bayfront Park, 301 Biscayne Blvd, Miami, FL 33132"
+    },
+    "category": "Food & Drink",
+    "price": 0,
+    "organizerId": "org6",
+    "createdAt": "2024-01-10T10:00:00Z"
+  }
+]

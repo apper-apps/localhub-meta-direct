@@ -1,0 +1,51 @@
+@import 'react-toastify/dist/ReactToastify.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+  
+  .font-display {
+    font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+  }
+}
+
+@layer components {
+  .toast-container {
+    @apply text-sm;
+  }
+  
+  .Toastify__toast {
+    @apply rounded-lg shadow-lg;
+  }
+  
+  .Toastify__toast--success {
+    @apply bg-success-500;
+  }
+  
+  .Toastify__toast--error {
+    @apply bg-red-500;
+  }
+  
+  .Toastify__toast--info {
+    @apply bg-blue-500;
+  }
+  
+  .Toastify__toast--warning {
+    @apply bg-accent-500;
+  }
+}
+
+@layer utilities {
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+}
