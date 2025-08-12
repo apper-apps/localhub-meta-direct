@@ -9,14 +9,14 @@ import EventMarketplace from "@/components/pages/EventMarketplace";
 import JobsPage from "@/components/pages/JobsPage";
 import RealEstatePage from "@/components/pages/RealEstatePage";
 import CarsPage from "@/components/pages/CarsPage";
+import UserProfileSidebar from "@/components/organisms/UserProfileSidebar";
 import locationService from "@/services/api/locationService";
-
 function App() {
   const [currentLocation, setCurrentLocation] = useState(null);
   const [activeModule, setActiveModule] = useState("qa");
-  const [filters, setFilters] = useState({});
+const [filters, setFilters] = useState({});
   const [searchQuery, setSearchQuery] = useState("");
-
+  const [profileSidebarOpen, setProfileSidebarOpen] = useState(false);
   useEffect(() => {
     // Set default location (San Francisco)
     const defaultLocation = {
@@ -95,9 +95,20 @@ function App() {
         />
 
         <Routes>
-          <Route path="/*" element={
+<Route path="/*" element={
             <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
               <div className="flex gap-6">
+                {/* Profile Sidebar */}
+                {profileSidebarOpen && (
+                  <aside className="w-80 flex-shrink-0 hidden lg:block">
+                    <UserProfileSidebar
+                      activeModule={activeModule}
+                      onClose={() => setProfileSidebarOpen(false)}
+                      className="sticky top-24"
+                    />
+                  </aside>
+                )}
+
                 {/* Main Content */}
                 <div className="flex-1 min-w-0">
                   {renderModuleContent()}

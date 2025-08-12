@@ -1,16 +1,17 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import ApperIcon from "@/components/ApperIcon";
-import SearchBar from "@/components/molecules/SearchBar";
+import LocationPicker from "@/components/organisms/LocationPicker";
 import LocationChip from "@/components/molecules/LocationChip";
 import ModuleNav from "@/components/molecules/ModuleNav";
-import LocationPicker from "@/components/organisms/LocationPicker";
+import SearchBar from "@/components/molecules/SearchBar";
 
 const Header = ({ 
   currentLocation, 
   onLocationChange, 
   activeModule, 
   onModuleChange,
-  onSearch 
+  onSearch,
+  onProfileToggle = () => {}
 }) => {
   const [showLocationPicker, setShowLocationPicker] = useState(false);
 
@@ -44,7 +45,12 @@ const Header = ({
             </div>
 
             {/* Profile placeholder */}
-            <div className="w-8 h-8 bg-gradient-to-br from-gray-200 to-gray-300 rounded-full"></div>
+<button
+              onClick={onProfileToggle}
+              className="w-8 h-8 bg-gradient-to-br from-primary-500 to-primary-600 rounded-full hover:shadow-lg transition-all duration-200 flex items-center justify-center"
+            >
+              <ApperIcon name="User" size={16} className="text-white" />
+            </button>
           </div>
 
           {/* Module Navigation */}
